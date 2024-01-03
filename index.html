@@ -4,22 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
 
-    <!-- #################################### -->
-    <!--             Navigation -->
-    <!-- ####################################### -->
 
-    <nav class="">
+    <!-- #################### -->
+    <!-- Navigation -->
+    <!-- #################### -->
+
+    <nav >
         <a href="#" class="logo"><img src="./images/logo.png" alt=""></a>
         <ul class="navigation">
             <li><a href="#home" class="active">Home</a></li>
             <li><a href="#cars">Voitures</a></li>
             <li><a href="#services">Services</a></li>
-            <li><a href="#about">A propos</a></li>
+            <li><a href="#about">À propos</a></li>
             <li><a href="#reviews">Les avis</a></li>
         </ul>
         <div class="btns">
@@ -28,80 +29,77 @@
         <div class="bx bx-menu" id="burger-menu"></div>
     </nav>
 
-     <!-- #################################### -->
-    <!--             Home -->
-    <!-- ####################################### -->
-    
+
+   <!-- #################### -->
+    <!-- Home -->
+    <!-- #################### -->
+
     <section class="home" id="home">
         <div class="home-content">
-            <h1><span>Roulez l'Experience</span><br>Location de Voitures Simplifiée</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo tenetur 
-                laborum natus obcaecati fugiat porro!</p>
+            <h1><span>Roulez L'Éxperience</span> <br> Location de Voitures Simplifiée</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam nemo praesentium ipsa facere non esse.</p>
             <div class="app-store">
-                <a href=""><img src="./images/apple.png" alt=""></a>
-                <a href=""><img src="./images/google.png" alt=""></a>
+                <img src="./images/apple.png" alt="">
+                <img src="./images/google.png" alt="">
             </div>
         </div>
+
         <div class="home-form">
             <form action="#">
                 <div class="input-box">
                     <span>Emplacement</span>
                     <input type="search" placeholder="Ou recherchez vous ?">
                 </div>
-                <div class="input-box modif">
+                <div class="input-box">
                     <span>Date de début</span>
-                    <input type="date">
+                    <input type="date" >
                 </div>
-                <div class="input-box modif">
+                <div class="input-box">
                     <span>Date de fin</span>
-                    <input type="date">
+                    <input type="date" >
                 </div>
-                <div class="input-box rotate">
-                    <button class="button-search">Rechercher</button>
-                </div>
+                <input type="submit" value="Rechercher" class="btn">
             </form>
         </div>
+
     </section>
 
-     <!-- #################################### -->
-    <!--             Voitures -->
-    <!-- ####################################### -->
-    
-    <section class="cars" id="cars">
+
+       <!-- #################### -->
+    <!-- Voitures -->
+    <!-- #################### -->
+
+
+    <section id="cars" class="cars">
         <div class="section-heading">
-            <span>Comment ca marche ?</span>
-            <h2>Location en 3 étapes seulement</h2>
+            <span>Comment ça marche ?</span>
+            <h2>Locations en 3 étapes seulement !</h2>
         </div>
         <div class="cars-container">
 
             <div class="box-car">
-                <i class="bx bxs-map"></i>
+                <i class='bx bx-map' ></i>
                 <h3>Choisir un emplacement</h3>
-                <p>Lorem ipsum dolor sit amet consectetur 
-                    adipisicing elit. Aut facere, praesentium 
-                    quam tempora tenetur est.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam excepturi animi non unde quod corrupti?</p>
             </div>
 
             <div class="box-car">
-                <i class="bx bxs-calendar"></i>
-                <h3>Choisir un emplacement</h3>
-                <p>Lorem ipsum dolor sit amet consectetur 
-                    adipisicing elit. Aut facere, praesentium 
-                    quam tempora tenetur est.</p>
+                <i class='bx bxs-calendar' ></i>
+                <h3>Choisir une date</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam excepturi animi non unde quod corrupti?</p>
             </div>
 
             <div class="box-car">
-                <i class="bx bxs-car"></i>
-                <h3>Choisir un emplacement</h3>
-                <p>Lorem ipsum dolor sit amet consectetur 
-                    adipisicing elit. Aut facere, praesentium 
-                    quam tempora tenetur est.</p>
+                <i class='bx bxs-car' ></i>
+                <h3>Réserver une voiture</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam excepturi animi non unde quod corrupti?</p>
             </div>
+
+
         </div>
     </section>
 
 
-    
            <!-- #################### -->
     <!-- Services -->
     <!-- #################### -->
@@ -341,9 +339,12 @@
         </div>
 
     </footer>
-    
 
-    
+
+    <div class="copy">
+        <p>&copy; ABK_DEV -FrontEnd Developper</p>
+    </div>
+
     <script src="app.js"></script>
 </body>
 </html>
